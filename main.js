@@ -14,8 +14,14 @@
 
     // Your code here...
     GM_addStyle ( `
+        @font-face { 
+            font-family: 'sao'; 
+            src:  
+                url('fonts/sao-latin.otf'); 
+        }
+
         body {
-            font-family:    Helvetica, sans-serif !important;
+            font-family: 'sao';
         }
     ` );
 })();
